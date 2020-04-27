@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceTask", "InheritanceTask\InheritanceTask.csproj", "{6DF413DA-2BA8-4917-8240-823202315CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceTask.Tests", "InheritanceTask.Tests\InheritanceTask.Tests.csproj", "{9204E97C-5B0D-4899-907A-F8681F7E323A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF413DA-2BA8-4917-8240-823202315CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF413DA-2BA8-4917-8240-823202315CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF413DA-2BA8-4917-8240-823202315CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF413DA-2BA8-4917-8240-823202315CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9204E97C-5B0D-4899-907A-F8681F7E323A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9204E97C-5B0D-4899-907A-F8681F7E323A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9204E97C-5B0D-4899-907A-F8681F7E323A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9204E97C-5B0D-4899-907A-F8681F7E323A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
