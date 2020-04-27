@@ -21,5 +21,5 @@
 > 	  - the first would change the name of 'Car'  
 > 	  - the second should NOT modify anything, but retrieve the name of 'Car'  
 >    Both methods must be accessible outside of the class!
-
-*Topics - classes, inheritance *
+      
+*Topics - classes, inheritance.*
