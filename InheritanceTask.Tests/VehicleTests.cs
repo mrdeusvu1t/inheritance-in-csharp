@@ -17,7 +17,7 @@ namespace InheritanceTask.Tests
         [SetUp]
         public void Initialize()
         {
-            var assembly = Assembly.GetExecutingAssembly();
+            var assembly = Assembly.Load("InheritanceTask")
 
             _vehicleType = assembly.GetTypes().FirstOrDefault(
                 t => t.Name.Equals(VehicleClassName, StringComparison.OrdinalIgnoreCase));
