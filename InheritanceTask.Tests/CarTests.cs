@@ -33,7 +33,7 @@ namespace InheritanceTask.Tests
         public void Car_Inherits_Vehicle()
         {
             var carInstance = Activator.CreateInstance(_carType, string.Empty, 0);
-            var vehicleType = Assembly.GetExecutingAssembly()
+            var vehicleType = Assembly.Load("InheritanceTask")
                 .GetTypes()
                 .FirstOrDefault(t => t.Name.Equals(VehicleClassName, StringComparison.OrdinalIgnoreCase));
 
